@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xilinx"  fetch="https://github.com/Xilinx"/>
+	<remote name="xilinx"  fetch="https://github.com/jamez70/mymanifests"/>
 
   <default sync-j="4"/>
 
