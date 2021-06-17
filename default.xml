@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="xilinx"  fetch="https://github.com/jamez70/mymanifests"/>
+	<remote name="xilinx"  fetch="https://github.com/Xilinx"/>
+	<remote name="morey"   fetch="ssh://git@github.com/jamez70"/>
 
   <default sync-j="4"/>
 
-  <project remote="xilinx"  revision="rel-v2020.2"      name="yocto-scripts"            path="."/>
-  <project remote="xilinx"  revision="rel-v2020.2"      name="yocto-manifests"          path="sources/manifest"/>
+  <project remote="morey"   revision="rel-morey-v0.0"   name="yocto-scripts"		path="."/>
+  <project remote="morey"   revision="rel-morey-v0.0"   name="yocto-manifests"		path="sources/manifest"/>
+  <project remote="morey"   revision="rel-morey-v0.0"   name="meta-morey-bsp"		path="sources/meta-morey-bsp"/>
   <project remote="xilinx"  revision="rel-v2020.2"      name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx"  revision="rel-v2020.2"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
   <project remote="xilinx"  revision="rel-v2020.2"      name="meta-petalinux"           path="sources/meta-petalinux"/>
