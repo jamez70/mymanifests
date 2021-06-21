@@ -8,7 +8,7 @@
   <project remote="morey"   revision="rel-morey-v0.0"   name="yocto-scripts"		path="."/>
   <project remote="morey"   revision="rel-morey-v0.0"   name="yocto-manifests"		path="sources/manifest"/>
   <project remote="morey"   revision="rel-morey-v0.0"   name="meta-morey-bsp"		path="sources/meta-morey-bsp"/>
-  <project remote="morey"   revision="rel-morey-v0.0"   name="meta-xilinx"              path="sources/meta-xilinx"/>
+  <project remote="xilinx"  revision="rel-v2020.2"      name="meta-xilinx"              path="sources/meta-xilinx"/>
   <project remote="xilinx"  revision="rel-v2020.2"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
   <project remote="xilinx"  revision="rel-v2020.2"      name="meta-petalinux"           path="sources/meta-petalinux"/>
 
